@@ -180,6 +180,7 @@
 		We can see the coefficient for difflog is positive and statistically significant, so higher campaign spending relative to the challenger (a higher difflog value) is associated with presvote.
 			\vspace{5cm}
 		\item Make a scatterplot of the two variables and add the regression line. 
+			\lstinputlisting[language=R, firstline=73, lastline=82]{PS3.R} 
 			\begin{figure}[H]\centering
 			
 			\label{fig:plot_2}
@@ -239,12 +240,13 @@
 			\vspace{5cm}
 			
 		\item Make a scatterplot of the two variables and add the regression line. 
+			\lstinputlisting[language=R, firstline=97, lastline=106]{PS3.R} 
 			\begin{figure}[H]\centering
 			
 			\label{fig:plot_3}
 			\includegraphics[width=.55\textwidth]{Scatterplot with regression line3.pdf}
 		\end{figure}
-			\vspace{5cm}
+			\vspace{6cm}
 		\item Write the prediction equation.
 		
 		voteshare=0.441330+0.388018×presvote
@@ -282,11 +284,12 @@
 		F-statistic:   477 on 1 and 3191 DF,  p-value: $<$ 2.2e-16
 		\vspace{6cm}
 		\item Make a scatterplot of the two residuals and add the regression line. 
+			\lstinputlisting[language=R, firstline=115, lastline=124]{PS3.R} 
 			\begin{figure}[H]\centering
 			
 			\label{fig:plot_4}
 			\includegraphics[width=.55\textwidth]{Scatterplot with regression line4.pdf}
-				\end{figure}\vspace{5cm}
+				\end{figure}\vspace{6cm}
 		\item Write the prediction equation.
 		
 		the residuals from Question 1=-1.942e-18+2.569e-01×the residuals from Question 2
